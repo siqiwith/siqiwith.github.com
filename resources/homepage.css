@@ -1,0 +1,51 @@
+﻿/**
+ * Copyright © 2012 Siqi. All Rights Reserved.
+ * Licensed under the GPL license.
+ */
+body{
+	background-color: #cfe5fa;
+	overflow-x: hidden;
+}
+.logo{
+	margin-left: -100px;
+	left: 50%;
+	margin-top: -100px;
+	top: 50%;
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	background-image: url("images/logo.png");
+	z-index: 5;
+}
+.copyright{
+	font-family: Myriad, Helvetica, Tahoma, Arial, clean, sans-serif;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	color: #759DC0;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0 1px 1px #ffffff;
+}
+.small-cloud{
+	width: 150px;
+	height: 150px;
+	left: -150px;
+	position: absolute;
+	background-image: url("images/smallCloud.png");
+}
+.medium-cloud{
+	width: 180px;
+	height: 180px;
+	left: -180px;
+	position: absolute;
+	background-image: url("images/mediumCloud.png");
+}
+
+.big-cloud{
+	width: 210px;
+	height: 210px;
+	left: -210px;
+	position: absolute;
+	background-image: url("images/bigCloud.png");
+}
