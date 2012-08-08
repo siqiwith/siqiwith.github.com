@@ -5,7 +5,17 @@
 body{
 	background-color: #cfe5fa;
 	overflow-x: hidden;
+	
+	font-family: Myriad, Helvetica, Tahoma, Arial, clean, sans-serif;
+	color: #759DC0;
+	text-shadow: 0 1px 0 #ffffff;
 }
+
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+
 .logo{
 	margin-left: -100px;
 	left: 50%;
@@ -48,4 +58,35 @@ body{
 	left: -210px;
 	position: absolute;
 	background-image: url("images/bigCloud.png");
+}
+
+.dockbar{
+	position: absolute;
+	bottom:0;
+}
+
+.dockbar-item{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	cursor: pointer;
+	z-index: 11;
+}
+
+.dockbar .email{
+	background-image: url("images/email.png");
+}
+
+.dockbar .piggy{
+	background-image: url("images/piggy.png");
+}
+
+.dockbar .about{
+	background-image: url("images/about.png");
+	background-position: 0 -3px;
+}
+
+.tooltip{
+	position: absolute;
+	bottom: 60px;
 }
