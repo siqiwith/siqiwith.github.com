@@ -77,6 +77,10 @@ body{
 	background-image: url("images/email.png");
 }
 
+.dockbar .blog{
+	background-image: url("images/blog.png");
+}
+
 .dockbar .piggy{
 	background-image: url("images/piggy.png");
 }
