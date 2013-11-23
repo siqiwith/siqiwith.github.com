@@ -1,0 +1,5 @@
+﻿/**
+ * Copyright © 2013 Siqi. All Rights Reserved.
+ * Licensed under the GPL license.
+ */
+body{background-color:#cfe5fa;font-family:Myriad,Helvetica,Tahoma,Arial,clean,sans-serif;color:#759DC0;text-shadow:0 1px 0 #ffffff;}#container{width:640px;height:640px;margin:auto;border:1px solid #759DC0;}.cell{width:36px;height:36px;margin:1px;border:1px solid #759DC0;float:left;-webkit-box-shadow:0px 1px 0px 0px #ffffff;box-shadow:0px 1px 0px 0px #ffffff;}.rightColumn{width:200px;position:fixed;right:50px;bottom:150px;}#loginPane{}#actionPane{display:none;}#userInfoPane{display:none;}#login,#start,#join{cursor:pointer;}
