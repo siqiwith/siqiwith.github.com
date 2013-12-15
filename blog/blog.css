@@ -1,0 +1,27 @@
+﻿/**
+ * Copyright © 2013 Siqi. All Rights Reserved.
+ * Licensed under the GPL license.
+ */
+
+.small-cloud{
+	width: 150px;
+	height: 150px;
+	left: -150px;
+	position: absolute;
+	background-image: url("images/smallCloud.png");
+}
+.medium-cloud{
+	width: 180px;
+	height: 180px;
+	left: -180px;
+	position: absolute;
+	background-image: url("images/mediumCloud.png");
+}
+
+.big-cloud{
+	width: 210px;
+	height: 210px;
+	left: -210px;
+	position: absolute;
+	background-image: url("images/bigCloud.png");
+}
