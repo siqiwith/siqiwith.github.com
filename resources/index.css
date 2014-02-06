@@ -1,0 +1,58 @@
+﻿/**
+ * Copyright © 2012 Siqi. All Rights Reserved.
+ * Licensed under the GPL license.
+ */
+ body{
+	background-color: #4d90fe;
+	color: #ffffff;
+ }
+ 
+.logo{
+	position: absolute;
+	width: 100%;
+	top: -100px;
+	left: 0;
+	margin-top: 50%;
+	text-align: center;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 160px;
+}
+
+.navigations{
+	margin-top: 20px;
+}
+
+.navigations .row{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid;
+}
+
+.navigations .row a{
+	color: #ffffff;
+}
+
+.navigations .row a:hover{
+	text-decoration: none;
+}
+
+.navigations .row .link{
+	font-size: 20px;
+	border-left: 4px solid #4d90fe;
+}
+
+.navigations .row .link:hover{
+	border-left: 4px solid #ffffff;
+}
+
+.navigations .row .description{
+	font-style: italic;
+}
+
+.copyright{
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 14px;
+}
