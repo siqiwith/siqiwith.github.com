@@ -10,6 +10,12 @@ body{
 	text-shadow: 0 1px 0 #ffffff;
 }
 
+@font-face {
+    font-family: 'Glyphicons Regular';
+    src: url('fonts/glyphicons-regular.eot');
+    src: url('fonts/glyphicons-regular.eot?#iefix') format('embedded-opentype'),url('fonts/glyphicons-regular.woff2') format('woff2'),url('fonts/glyphicons-regular.woff') format('woff'),url('fonts/glyphicons-regular.ttf') format('truetype'),url('fonts/glyphicons-regular.svg#glyphiconsregular') format('svg')
+}
+
 .hidden{
 	display: none;
 	visibility: hidden;
@@ -61,35 +67,35 @@ body{
 
 .dockbar{
 	position: absolute;
-	bottom:0;
+	left: 15px;
+    bottom:0;
+    margin: 0;
+    padding: 0;
 }
 
-.dockbar-item{
-	width: 60px;
-	height: 60px;
-	display: inline-block;
-	cursor: pointer;
-	z-index: 11;
-}
-
-.dockbar .email{
-	background-image: url("images/email.png");
-}
-
-.dockbar .blog{
-	background-image: url("images/blog.png");
-}
-
-.dockbar .piggy{
-	background-image: url("images/piggy.png");
-}
-
-.dockbar .about{
-	background-image: url("images/about.png");
-	background-position: 0 -3px;
+.dockbar li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px 25px 10px;
 }
 
 .tooltip{
 	position: absolute;
 	bottom: 60px;
+}
+
+.glyphicon{
+    font-family: 'Glyphicons Regular';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.dockbar .glyphicon{
+    color: #759dc0;
+    text-decoration: none;
+    font-size: 30px;
 }
