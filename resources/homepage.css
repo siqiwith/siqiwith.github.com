@@ -1,13 +1,19 @@
 ﻿/**
  * Copyright © 2012 Siqi. All Rights Reserved.
  * Licensed under the GPL license.
- */
+ */ 
+html, body{
+    height: 100%;
+}
+
 body{
 	background-color: #cfe5fa;
 	overflow: hidden;
 	font-family: Myriad, Helvetica, Tahoma, Arial, clean, sans-serif;
 	color: #759DC0;
 	text-shadow: 0 1px 0 #ffffff;
+    padding: 0;
+    margin: 0;
 }
 
 @font-face {

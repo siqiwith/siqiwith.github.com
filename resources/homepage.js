@@ -3,6 +3,7 @@
  * Licensed under the GPL license.
  */
 $(function(){
+/*
 	var started = false;
 	var length = 2000;
 	var cloudClasses = ["small-cloud", "medium-cloud", "big-cloud"];
@@ -30,4 +31,16 @@ $(function(){
 	};
 	createCloud();
 	started = true;
+*/
+    bubblesMain(new Object({
+        type : 'radial',
+        revolve : 'center',
+        minSpeed : 100,
+        maxSpeed : 500,
+        minSize : 10,
+        maxSize : 30,
+        num : 100,
+        opacity: 0.7,
+        colors : new Array('#759dc0','#FFFFFF','#aac5dc')
+    }));
 });
