@@ -37,6 +37,11 @@ body{
 	width: 200px;
 	background-image: url("images/logo.png");
 	z-index: 5;
+    
+    -webkit-animation-duration: 4s; /* Firefox */
+    -moz-animation-duration: 4s; /* WebKit */
+    -o-animation-duration: 4s; /* Opera */
+    animation-duration: 4s;
 }
 .copyright{
 	font-family: Myriad, Helvetica, Tahoma, Arial, clean, sans-serif;
@@ -83,6 +88,7 @@ body{
     list-style-type: none;
     display: inline-block;
     margin: 0 10px 25px 10px;
+    vertical-align: middle;
 }
 
 .tooltip{
@@ -104,4 +110,13 @@ body{
     color: #759dc0;
     text-decoration: none;
     font-size: 30px;
+    
+    -webkit-transition: all 0.3s ease; /* Firefox */
+    -moz-transition: all 0.3s ease; /* WebKit */
+    -o-transition: all 0.3s ease; /* Opera */
+    transition: all 0.3s ease; /* Standard */
+}
+
+.dockbar .glyphicon:hover{
+    font-size: 45px;
 }
